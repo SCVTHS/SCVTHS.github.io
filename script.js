@@ -1,10 +1,10 @@
 const images = [
     {
-        url: 'temp-img1.jpg',
+        url: 'SCVTHS.jpg',
         caption: 'Caption for Image 1'
     },
     {
-        url: 'temp-img2.png',
+        url: 'laptop.jpg',
         caption: 'Caption for Image 2'
     },
 ];
