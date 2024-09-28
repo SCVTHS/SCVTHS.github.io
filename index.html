@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCVTHS - Somerset County Vocational and Technical High School</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+
+        <h1 class="title">Somerset County Vocational and Technical High School</h1>
+        <p>Empowering Students Through Quality Technical Education</p>
+    </header>
+    
+    <section class="meet-the-team">
+    <h2 class='meet-the-team-title'>Select Your Device</h2>
+    <div class="team-container">
+        <div class="team-member">
+            <a href="desktop.html">
+                <img class='team-member-img' src="https://codehs.com/uploads/338b8d5d56078e84c304ab43248ff005" alt="Desktop">
+                <p>Desktop</p>
+            </a>
+        </div>
+        <div class="team-member">
+            <a href="laptop.html">
+                <img class='team-member-img' src="https://codehs.com/uploads/d63e3ffe37ea5ce121f3d0cfefd25982" alt="Laptop">
+                <p>Laptop</p>
+            </a>
+        </div>
+        <div class="team-member">
+            <a href="phone.html">
+                <img class='team-member-img' src="https://codehs.com/uploads/36f626e62138bcd6891c0d33705dbe33" alt="Phone">
+                <p>Phone</p>
+            </a>
+        </div>
+    </div>
+</section>
+
+    
+    <footer>
+        <ul>
+            <li>&copy; 2024 Somerset County Vocational and Technical High School</li>
+            <li class="footer-words">14 Vogt Dr | Bridgewater, NJ 08807 &nbsp;&nbsp;&nbsp; P:(908) 526-8900</li>
+        </ul>
+    </footer>
+</body>
+</html>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: white;
+}
+header {
+    background: #003c71;
+    color: white;
+    padding: 2rem 1rem; 
+    text-align: center;
+    position: relative; 
+}
+.topleft {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    width: 100px; 
+}
+
+h1, h2 {
+    margin: 0.5rem 0;
+}
+
+h1.select {
+    text-align: center;
+}
+
+.meet-the-team-title {
+    font-size: 2.5rem; 
+    color: #113e6c;
+    text-align: center;
+}
+.meet-the-team {
+    text-align: center;
+    padding: 20px;
+}
+.team-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 20px;
+    padding: 0 10px; 
+}
+
+.team-member {
+    flex: 1 1 300px; 
+    text-align: center;
+    margin: 20px 0; 
+}
+.team-member-img {
+    width: 100%; 
+    height: auto; 
+    max-width: 400px; 
+    border-radius: 10px; 
+    margin-bottom: 10px; 
+}
+.team-member p {
+    margin-top: 10px;
+    font-size: 1rem; 
+    color: #333;
+}
+
+footer {
+    background: #002b5c;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer-words {
+    margin: 25px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0; 
+}
+
+
+@media (max-width: 600px) {
+    h2.meet-the-team-title {
+        font-size: 2rem; 
+    }
+}
+
+@font-face {
+    font-family: 'Zilla';
+    src: url(https://codehs.com/uploads/012aaf099deb4e2aecd0dcf5b960ca20);
+}
+
+.title {
+    color: #fff;
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 550;
+    font-family: 'Zilla', serif;
+
+}
+</style>
