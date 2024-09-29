@@ -7,7 +7,10 @@ const images = [
         url: 'java-logo.png',
         caption: 'Caption for Image 2'
     },
-    // Add more images if needed
+    {
+        url: 'py-logo.png',
+        caption: 'Caption for Image 3'
+    },
 ];
 
 // Function to set a random image and its caption
