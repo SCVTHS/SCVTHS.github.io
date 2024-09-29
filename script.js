@@ -19,4 +19,5 @@ function setRandomImage(elementId, captionId) {
 
 // Set random images and captions for each team member
 setRandomImage('member1', 'caption1');
+setRandomImage('member2', 'caption2');
 setRandomImage('member3', 'caption3');
