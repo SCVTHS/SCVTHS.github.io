@@ -7,6 +7,10 @@ const images = [
         url: 'laptop.jpg',
         caption: 'Caption for Image 2'
     },
+    {
+        url: 'js-logo.jpg',
+        caption: 'Caption for Image 1'
+    },
 ];
 
 // Function to set a random image and its caption
