@@ -1,7 +1,7 @@
 const images = [
     {
         url: 'dom-img.jpg',
-        caption: 'Caption for Image 1'
+        caption: 'Homeless Dude from the Street'
     },
     {
         url: 'py-logo.png',
