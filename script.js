@@ -1,4 +1,3 @@
-// Array of image URLs and their corresponding captions
 const images = [
     {
         url: 'SCVTHS.jpg',
@@ -8,17 +7,22 @@ const images = [
         url: 'java-logo.png',
         caption: 'Caption for Image 2'
     },
+    // Add more images if needed
 ];
 
 // Function to set a random image and its caption
-function setRandomImage(elementId, captionId) {
-    const randomIndex = Math.floor(Math.random() * images.length);
-    const image = images[randomIndex]; // Get the random image object
+function setRandomImage(elementId, captionId, availableImages) {
+    const randomIndex = Math.floor(Math.random() * availableImages.length);
+    const image = availableImages[randomIndex]; // Get the random image object
     document.getElementById(elementId).src = image.url; // Set the image source
     document.getElementById(captionId).innerText = image.caption; // Set the caption text
+    availableImages.splice(randomIndex, 1); // Remove the selected image from availableImages
 }
 
-// Set random images and captions for each team member
-setRandomImage('member1', 'caption1');
-setRandomImage('member2', 'caption2');
-setRandomImage('member3', 'caption3');
+// Make a copy of the images array to keep track of available images
+const availableImages = [...images];
+
+// Set random images and captions for each team member without duplication
+setRandomImage('member1', 'caption1', availableImages);
+setRandomImage('member2', 'caption2', availableImages);
+setRandomImage('member3', 'caption3', availableImages);
