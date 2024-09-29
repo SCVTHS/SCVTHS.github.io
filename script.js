@@ -4,11 +4,11 @@ const images = [
         caption: 'Caption for Image 1'
     },
     {
-        url: 'java-logo.png',
+        url: 'py-logo.png',
         caption: 'Caption for Image 2'
     },
     {
-        url: 'py-logo.png',
+        url: 'java-logo.png',
         caption: 'Caption for Image 3'
     },
 ];
