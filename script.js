@@ -1,6 +1,6 @@
 const images = [
     {
-        url: 'SCVTHS.jpg',
+        url: 'dom-img.jpg',
         caption: 'Caption for Image 1'
     },
     {
