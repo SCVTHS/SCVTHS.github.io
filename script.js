@@ -1,15 +1,12 @@
+// Array of image URLs and their corresponding captions
 const images = [
     {
         url: 'SCVTHS.jpg',
         caption: 'Caption for Image 1'
     },
     {
-        url: 'laptop.jpg',
+        url: 'java-logo.png',
         caption: 'Caption for Image 2'
-    },
-    {
-        url: 'js-logo.jpg',
-        caption: 'Caption for Image 1'
     },
 ];
 
