@@ -23,33 +23,24 @@
 
 
 <h2 class='welcome'>Gallery</h2>
-<div class="gallery">
-        <div class="gallery-item">
-            <img src="https://codehs.com/uploads/92cbae805e543caf8930cc6db49d1aac" alt="Image 1">
-            <p class="caption">Caption for Image 1</p>
-        </div>
-        <div class="gallery-item">
-            <img src="https://codehs.com/uploads/92cbae805e543caf8930cc6db49d1aac" alt="Image 2">
-            <p class="caption">Caption for Image 2</p>
-        </div>
-        <div class="gallery-item">
-            <img src="https://codehs.com/uploads/92cbae805e543caf8930cc6db49d1aac" alt="Image 3">
-            <p class="caption">Caption for Image 3</p>
-        </div>
-        <div class="gallery-item">
-            <img src="https://codehs.com/uploads/92cbae805e543caf8930cc6db49d1aac" alt="Image 4">
-            <p class="caption">Caption for Image 4</p>
-        </div>
-        <div class="gallery-item">
-            <img src="https://codehs.com/uploads/92cbae805e543caf8930cc6db49d1aac" alt="Image 5">
-            <p class="caption">Caption for Image 5</p>
-        </div>
-        <div class="gallery-item">
-            <img src="https://codehs.com/uploads/92cbae805e543caf8930cc6db49d1aac" alt="Image 6">
-            <p class="caption">Caption for Image 6</p>
-        </div>
-    </div>
 
+<img class='gallery-img' src="https://codehs.com/uploads/92cbae805e543caf8930cc6db49d1aac" alt="Image 1">
+<p class="caption">Caption for Image 1</p>
+
+<img class='gallery-img' src="https://codehs.com/uploads/d63e3ffe37ea5ce121f3d0cfefd25982" alt="Image 2">
+<p class="caption">Caption for Image 2</p>
+
+<img class='gallery-img'  src="https://codehs.com/uploads/c550c83a03de26146754391ca3d1b9e3" alt="Image 3">
+<p class="caption">Caption for Image 3</p>
+
+<img class='gallery-img'  src="https://codehs.com/uploads/92cbae805e543caf8930cc6db49d1aac" alt="Image 4">
+<p class="caption">Caption for Image 4</p>
+
+<img class='gallery-img'  src="https://codehs.com/uploads/92cbae805e543caf8930cc6db49d1aac" alt="Image 5">
+<p class="caption">Caption for Image 5</p>
+
+<img class='gallery-img'  src="https://codehs.com/uploads/92cbae805e543caf8930cc6db49d1aac" alt="Image 6">
+<p class="caption">Caption for Image 6</p>
 
 
 
@@ -140,31 +131,18 @@ ul {
     text-align:center;
 }
 
-.gallery {
-    display: flex;
-    flex-wrap: wrap; /* Allow items to wrap to the next line */
-    justify-content: space-around; /* Evenly distribute items */
-    padding: 10px; /* Add some padding around the gallery */
-}
+.gallery-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
 
-.gallery-item {
-    flex: 1 1 30%; /* Flex-grow, flex-shrink, flex-basis (30% width) */
-    max-width: 30%; /* Ensure a maximum width of 30% */
-    margin: 10px; /* Space between images */
-    box-sizing: border-box; /* Include padding and margin in width calculation */
-    text-align: center; /* Center the caption text */
 }
-
-.gallery-item img {
-    width: 100%; /* Image takes full width of its container */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Removes bottom space */
-}
-
 .caption {
-    margin-top: 5px; /* Space between image and caption */
-    font-size: 14px; /* Caption font size */
-    color: #555; /* Caption color */
+    text-align:center;
+    margin-top: 5px; 
+    font-size: 14px;
+    color: #555;
 }
 
 </style>
