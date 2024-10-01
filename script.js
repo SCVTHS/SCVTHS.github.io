@@ -4,12 +4,24 @@ const images = [
         caption: 'Homeless Dude from the Street'
     },
     {
-        url: 'py-logo.png',
-        caption: 'Caption for Image 2'
+        url: 'IMG_3400.JPG',
+        caption: 'Participant in SkillsUSA'
     },
     {
-        url: 'java-logo.png',
-        caption: 'Caption for Image 3'
+        url: 'IMG_3443.JPG',
+        caption: 'One of Our Gold Medal SkillsUSA Winners'
+    },
+    {
+        url: 'IMG_3518.JPG',
+        caption: 'Senior in the Computer Science Program'
+    },
+    {
+        url: 'IMG_3532.JPG',
+        caption: 'Participant in SkillsUSA'
+    },
+    {
+        url: 'IMG_3579.JPG',
+        caption: 'Freshmen in the Computer Science Program'
     },
 ];
 
