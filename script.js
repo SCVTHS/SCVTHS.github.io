@@ -1,7 +1,7 @@
 const images = [
     {
         url: 'dom-img.jpg',
-        caption: 'Collaberative Student at SCVTHS'
+        caption: 'Collaborative Student at SCVTHS'
     },
     {
         url: 'IMG_3400.JPG',
