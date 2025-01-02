@@ -1,27 +1,31 @@
 const images = [
     {
-        url: 'dom-img.jpg',
-        caption: 'Collaborative Student at SCVTHS'
+        url: 'akemy-team.JPG',
+        caption: 'Participant in SkillsUSA Web-Design Team'
     },
     {
-        url: 'IMG_3400.JPG',
-        caption: 'Participant in SkillsUSA'
-    },
-    {
-        url: 'IMG_3443.JPG',
+        url: 'armando-team.JPG',
         caption: 'One of Our Gold Medal SkillsUSA Winners'
     },
     {
-        url: 'IMG_3518.JPG',
-        caption: 'Senior in the Computer Science Program'
+        url: 'dom-team.JPG',
+        caption: 'Collaborative Student at SCVTHS'
     },
     {
-        url: 'IMG_3532.JPG',
-        caption: 'Participant in SkillsUSA'
-    },
-    {
-        url: 'IMG_3579.JPG',
+        url: 'fresh-team.JPG',
         caption: 'Freshmen in the Computer Science Program'
+    },
+    {
+        url: 'gian-team.JPG',
+        caption: 'Participant in SkillsUSA Web-Design Team'
+    },
+    {
+        url: 'gian-team2.JPG',
+        caption: 'Participant in SkillsUSA Web-Design Team'
+    },
+    {
+        url: 'kenny-team.JPG',
+        caption: 'Senior in the Computer Science Program'
     },
 ];
 
