@@ -44,4 +44,3 @@ const availableImages = [...images];
 // Set random images and captions for each team member without duplication
 setRandomImage('member1', 'caption1', availableImages);
 setRandomImage('member2', 'caption2', availableImages);
-setRandomImage('member3', 'caption3', availableImages);
