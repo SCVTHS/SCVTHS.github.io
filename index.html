@@ -1,11 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SCVTHS - Somerset County Vocational and Technical High School</title>
-</head>
-<body>
-    <h1>Under development for improvements, please revisit  1/3/2025</h1>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Computer Science</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <style>
+            .font-bold {
+                font-family: 'Zilla-Bold'
+            }
+            .font-normal {
+                font-family: 'Zilla'
+            }
+            .navbar-custom {
+                background-color: #002b5c;
+            }
+
+            .carousel-item img {
+                height: 31.25rem;
+                object-fit: cover;
+            }
+            h1 {
+                font-size: 3rem;
+            }
+            p {
+                font-size: 1.25rem;
+                line-height: 1.8;
+            }
+            .grey-section {
+                background-color: #f5f5f5;
+                padding: 40px 0;
+            }
+            .meet-the-team-title {
+                font-family: 'Zilla-Bold', sans-serif;
+                font-size: 3rem;
+                font-weight: 700;
+                color: #113e6c;
+                text-align: center;
+            }
+            .team-member-img {
+                width: 100%;
+                max-width: 400px;
+                height: 500px;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+            .meet-the-team p {
+                margin-top: 10px;
+                font-size: 20px;
+                color: #333;
+            }
+            @font-face {
+                font-family: 'Zilla';
+                src: url(https://codehs.com/uploads/012aaf099deb4e2aecd0dcf5b960ca20);
+            }
+            
+            @font-face {
+                font-family: 'Zilla-Bold';
+                src: url(https://codehs.com/uploads/d574a8bea3bc0ea6c4e2a2f2bc1ba80c);
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Header Section -->
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+
+            <div class="container-fluid d-flex align-items-center ps-4">
+                <!-- Image and Title -->
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="https://codehs.com/uploads/5cdc790dbc3992b3b0880afb264213d2" alt="Logo" class="me-2 rounded-circle ps" style="width: 50px; height: 50px;">
+                    <span style="font-family: 'Zilla-Bold'; font-size: 2rem;" class="ps-2">Computer Science</span>
+                </a>
+                <!-- Hamburger -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navbar Links -->
+                <div class="collapse navbar-collapse" id="navbarNav" >
+                    <ul class="navbar-nav ms-auto px-3" style="font-family: 'Zilla'; font-size: 1.3rem;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+
+
+        <!-- Welcome Section -->
+        <div class="container mt-5">
+            <div class="row">
+                <!-- Text Section -->
+                <div class="col-md-6 d-flex align-items-center">
+                    <div>
+                        <!-- Title -->
+                        <h1 class="text-center pb-3 font-bold"style="color:#113e6c; font-size: 3rem;">Welcome to SCVTHS!</h1>
+                        <!-- Paragraph -->
+                        <p class="font-normal pb-3" style="line-height: 2.5rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Providing exceptional vocational and technical education in Somerset County, NJ.
+Our high school credits offered to colleges are evaluated on the same basis as those
+which may be presented by applicants from other high schools. It is also noteworthy
+to mention that college admission counselors welcome CTE graduates as they find
+our alumni to arrive at college more focused and prepared to continue their education.</p>
+                    </div>
+                </div>
+                <!-- Image Section -->
+                <div class="col-md-6 ps-3 mb-5">
+                    <img src="https://codehs.com/uploads/fd3c7f811708de9101c7e547e295948e" alt="Agricultural Science" class="img-fluid max-width-600 max-height-400" >
+                </div>
+            </div>
+        </div>
+        
+        <!-- Meet the Team -->
+        <section class="meet-the-team bg-light py-5">
+          <div class="container">
+            <h2 class="meet-the-team-title">Meet the Team</h2>
+            <div class="row justify-content-center gy-4">
+              <div class="col-md-4 text-center">
+                <img 
+                  id="member1" 
+                  alt="Team Member 1" 
+                  src="https://via.placeholder.com/400x500?text=Team+Member+1" 
+                  class="img-fluid team-member-img rounded">
+                <p>Team Member 1 - Position</p>
+              </div>
+              <div class="col-md-4 text-center">
+                <img 
+                  src="https://codehs.com/uploads/1ef0fde106c44e8811f004d5a6e179bb" 
+                  alt="Teacher" 
+                  class="img-fluid team-member-img rounded">
+                <p>Computer Science Teacher</p>
+              </div>
+              <div class="col-md-4 text-center">
+                <img 
+                  id="member3" 
+                  alt="Team Member 3" 
+                  src="https://via.placeholder.com/400x500?text=Team+Member+3" 
+                  class="img-fluid team-member-img rounded">
+                <p>Team Member 3 - Position</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class=" text-white text-center py-3 navbar-custom">
+            <p class="pt-3">&copy; 2024 Computer Science. All Rights Reserved.</p>
+            <p>14 Vogt Dr | Bridgewater, NJ 08807</p>
+        </footer>
+        
+        <script src='script.js'></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
 </html>
