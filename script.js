@@ -26,7 +26,7 @@ const images = [
     {
         url: 'images/meet-the-team/kenny-team.JPG',
         caption: 'Senior in the Computer Science Program'
-    },
+    }
 ];
 
 // Function to set a random image and its caption
