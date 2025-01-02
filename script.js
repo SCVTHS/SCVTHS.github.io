@@ -1,30 +1,30 @@
 const images = [
     {
-        url: 'akemy-team.JPG',
+        url: 'images/meet-the-team/akemy-team.JPG',
         caption: 'Participant in SkillsUSA Web-Design Team'
     },
     {
-        url: 'armando-team.JPG',
+        url: 'images/meet-the-team/armando-team.JPG',
         caption: 'One of Our Gold Medal SkillsUSA Winners'
     },
     {
-        url: 'dom-team.JPG',
+        url: 'images/meet-the-team/dom-team.JPG',
         caption: 'Collaborative Student at SCVTHS'
     },
     {
-        url: 'fresh-team.JPG',
+        url: 'images/meet-the-team/fresh-team.JPG',
         caption: 'Freshmen in the Computer Science Program'
     },
     {
-        url: 'gian-team.JPG',
+        url: 'images/meet-the-team/gian-team.JPG',
         caption: 'Participant in SkillsUSA Web-Design Team'
     },
     {
-        url: 'gian-team2.JPG',
+        url: 'images/meet-the-team/gian-team2.JPG',
         caption: 'Participant in SkillsUSA Web-Design Team'
     },
     {
-        url: 'kenny-team.JPG',
+        url: 'images/meet-the-team/kenny-team.JPG',
         caption: 'Senior in the Computer Science Program'
     },
 ];
