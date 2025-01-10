@@ -12,10 +12,6 @@ const images = [
         caption: 'Collaborative Student at SCVTHS'
     },
     {
-        url: 'images/meet-the-team/fresh-team.JPG',
-        caption: 'Freshmen in the Computer Science Program'
-    },
-    {
         url: 'images/meet-the-team/gian-team.JPG',
         caption: 'Participant in SkillsUSA Web-Design Team'
     },
