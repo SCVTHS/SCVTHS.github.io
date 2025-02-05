@@ -5,7 +5,7 @@ const images = [
     },
     {
         url: 'images/meet-the-team/armando-team.JPG',
-        caption: 'One of Our Gold Medal SkillsUSA Winners'
+        caption: 'Gold Medal SkillsUSA Winners'
     },
     {
         url: 'images/meet-the-team/dom-team.JPG',
