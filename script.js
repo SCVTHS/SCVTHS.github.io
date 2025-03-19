@@ -16,10 +16,6 @@ const images = [
         caption: 'Participant in SkillsUSA Web-Design Team'
     },
     {
-        url: 'images/meet-the-team/gian-team2.JPG',
-        caption: 'Participant in SkillsUSA Web-Design Team'
-    },
-    {
         url: 'images/meet-the-team/kenny-team.JPG',
         caption: 'Senior in the Computer Science Program'
     }
